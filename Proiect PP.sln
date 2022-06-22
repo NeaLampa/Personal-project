@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Manager magazin", "Manager magazin\Manager magazin.vcxproj", "{95404DA5-ED53-4C94-9099-18D8CD651146}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interfata client", "Interfata client\Interfata client.vcxproj", "{D1441A94-25E2-45FE-9DC9-F7E4BF17EBE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common headers", "Common headers", "{1C890526-7C09-49D3-B32B-2188A3CF6837}"
+	ProjectSection(SolutionItems) = preProject
+		Fisiere comune\Cos_cumparaturi.h = Fisiere comune\Cos_cumparaturi.h
+		Fisiere comune\Culori.h = Fisiere comune\Culori.h
+		Fisiere comune\Data.h = Fisiere comune\Data.h
+		Fisiere comune\Produs.h = Fisiere comune\Produs.h
+		Fisiere comune\Recenzie.h = Fisiere comune\Recenzie.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common txt", "Common txt", "{7F0E6867-5F25-4027-BEA3-44E60EF3AE87}"
+	ProjectSection(SolutionItems) = preProject
+		Fisiere comune\Comenzi.txt = Fisiere comune\Comenzi.txt
+		Fisiere comune\Recenzii.txt = Fisiere comune\Recenzii.txt
+		Fisiere comune\Stoc.txt = Fisiere comune\Stoc.txt
+		Fisiere comune\Stoc_aux.txt = Fisiere comune\Stoc_aux.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95404DA5-ED53-4C94-9099-18D8CD651146}.Debug|x64.ActiveCfg = Debug|x64
+		{95404DA5-ED53-4C94-9099-18D8CD651146}.Debug|x64.Build.0 = Debug|x64
+		{95404DA5-ED53-4C94-9099-18D8CD651146}.Debug|x86.ActiveCfg = Debug|Win32
+		{95404DA5-ED53-4C94-9099-18D8CD651146}.Debug|x86.Build.0 = Debug|Win32
+		{95404DA5-ED53-4C94-9099-18D8CD651146}.Release|x64.ActiveCfg = Release|x64
+		{95404DA5-ED53-4C94-9099-18D8CD651146}.Release|x64.Build.0 = Release|x64
+		{95404DA5-ED53-4C94-9099-18D8CD651146}.Release|x86.ActiveCfg = Release|Win32
+		{95404DA5-ED53-4C94-9099-18D8CD651146}.Release|x86.Build.0 = Release|Win32
+		{D1441A94-25E2-45FE-9DC9-F7E4BF17EBE4}.Debug|x64.ActiveCfg = Debug|x64
+		{D1441A94-25E2-45FE-9DC9-F7E4BF17EBE4}.Debug|x64.Build.0 = Debug|x64
+		{D1441A94-25E2-45FE-9DC9-F7E4BF17EBE4}.Debug|x86.ActiveCfg = Debug|Win32
+		{D1441A94-25E2-45FE-9DC9-F7E4BF17EBE4}.Debug|x86.Build.0 = Debug|Win32
+		{D1441A94-25E2-45FE-9DC9-F7E4BF17EBE4}.Release|x64.ActiveCfg = Release|x64
+		{D1441A94-25E2-45FE-9DC9-F7E4BF17EBE4}.Release|x64.Build.0 = Release|x64
+		{D1441A94-25E2-45FE-9DC9-F7E4BF17EBE4}.Release|x86.ActiveCfg = Release|Win32
+		{D1441A94-25E2-45FE-9DC9-F7E4BF17EBE4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50B79A9B-D886-49B5-8200-B07DF9E52CAF}
+	EndGlobalSection
+EndGlobal

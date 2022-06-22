@@ -1,0 +1,24 @@
+100
+Ciocolata
+15 5.99
+101
+Bricheta
+10 2.99
+102
+Moneda 50 bani
+229 0.99
+103
+Apa plata
+5 4.99
+104
+Pix
+11 1.99
+105
+Carte
+3 49.99
+106
+Calorifer
+1 399.99
+107
+Telefon
+2 1599.99
