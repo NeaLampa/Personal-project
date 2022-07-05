@@ -24,6 +24,7 @@
     <ProjectGuid>{d1441a94-25e2-45fe-9dc9-f7e4bf17ebe4}</ProjectGuid>
     <RootNamespace>Interfataclient</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Client interface</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -148,7 +149,7 @@
     <ClCompile Include="..\Fisiere comune\Produs.cpp" />
     <ClCompile Include="..\Fisiere comune\Recenzie.cpp" />
     <ClCompile Include="src\Functii-ic.cpp" />
-    <ClCompile Include="src\Interfata client.cpp" />
+    <ClCompile Include="src\Client interface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Functii-ic.h" />
