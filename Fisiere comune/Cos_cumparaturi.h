@@ -1,6 +1,6 @@
 #pragma once
 
-#include "C:\Users\pasca\Desktop\Chestii C++\PP-final\Fisiere comune\Data.h"
+#include "C:\Users\pasca\Desktop\Chestii C++\Proiect personal\Fisiere comune\Data.h"
 
 class Cos_cumparaturi {
 private:

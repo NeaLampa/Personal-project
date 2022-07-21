@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d1441a94-25e2-45fe-9dc9-f7e4bf17ebe4}</ProjectGuid>
-    <RootNamespace>Interfataclient</RootNamespace>
+    <ProjectGuid>{95404da5-ed53-4c94-9099-18d8cd651146}</ProjectGuid>
+    <RootNamespace>Managermagazin</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Client interface</ProjectName>
+    <ProjectName>Store manager</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -80,11 +80,11 @@
     <IntDir>intermediates\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\Store manager</OutDir>
     <IntDir>intermediates\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\Store manager</OutDir>
     <IntDir>intermediates\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -148,11 +148,11 @@
     <ClCompile Include="..\Fisiere comune\Data.cpp" />
     <ClCompile Include="..\Fisiere comune\Produs.cpp" />
     <ClCompile Include="..\Fisiere comune\Recenzie.cpp" />
-    <ClCompile Include="src\Functii-ic.cpp" />
-    <ClCompile Include="src\Client interface.cpp" />
+    <ClCompile Include="src\Functii-mm.cpp" />
+    <ClCompile Include="src\Store manager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Functii-ic.h" />
+    <ClInclude Include="src\Functii-mm.h" />
     <ClInclude Include="src\Headers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

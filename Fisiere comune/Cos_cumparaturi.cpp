@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <windows.h>
-#include "C:\Users\pasca\Desktop\Chestii C++\PP-final\Fisiere comune\Culori.h"
-#include "C:\Users\pasca\Desktop\Chestii C++\PP-final\Fisiere comune\Produs.h"
-#include "C:\Users\pasca\Desktop\Chestii C++\PP-final\Fisiere comune\Data.h"
-#include "C:\Users\pasca\Desktop\Chestii C++\PP-final\Fisiere comune\Cos_cumparaturi.h"
-#include "C:\Users\pasca\Desktop\Chestii C++\PP-final\Fisiere comune\Recenzie.h"
+#include "C:\Users\pasca\Desktop\Chestii C++\Proiect personal\Fisiere comune\Culori.h"
+#include "C:\Users\pasca\Desktop\Chestii C++\Proiect personal\Fisiere comune\Produs.h"
+#include "C:\Users\pasca\Desktop\Chestii C++\Proiect personal\Fisiere comune\Data.h"
+#include "C:\Users\pasca\Desktop\Chestii C++\Proiect personal\Fisiere comune\Cos_cumparaturi.h"
+#include "C:\Users\pasca\Desktop\Chestii C++\Proiect personal\Fisiere comune\Recenzie.h"
 
 
 Cos_cumparaturi::Cos_cumparaturi() {
