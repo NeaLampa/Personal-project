@@ -14,10 +14,5 @@ The second program is supposed to be the *interface* that the customer uses. The
 
 ---
 
-It only works on windows. (for now)
+It only works on windows.
 
----
-
-##### Versions
-
-1.00 - This is what I was supposed to do for uni.
